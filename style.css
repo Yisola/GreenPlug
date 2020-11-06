@@ -21,6 +21,8 @@ h1, h2, h3, h4, h5, p {
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
+    background-color: white;
+    box-shadow: 0 2px 2px #ddd;
 }
 
 #mainNavbar .nav-link {
@@ -29,23 +31,34 @@ h1, h2, h3, h4, h5, p {
 }
 
 #mainNavbar .nav-link:hover {
-    color: #fff;
-    background-color: #0f9447;
+    color: #0f9447;
 }
 
 #mainNavbar .navbar-brand {
-    color: #EA1C2C;
+    color: #0f9447;
+    font-weight:900;
     font-size: 1.5rem;
 }
 
-/* #headingGroup span {
-    color: #EA1C2C;
+#navbar-toggle{
+    color: black!important;
+    /* border-color: #8ec942!important; */
+    /* background-color: black!important; */
+    background: black;
+    /* border: 1px solid transparent!important; */
 }
 
-#headingGroup h1 {
-    font-weight: 100;
-    font-size: 4rem;
-} */
+nav ul {
+    float: right;
+    margin-right: 25px;
+    list-style: none;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 15px;
+}
 
 .navbar.scrolled {
     background: #fff;
