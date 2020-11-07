@@ -15,7 +15,7 @@
 
 <body>
 
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+    <!-- <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
         <a href="#" class="navbar-brand">GREENPLUG</a>
         <button class="navbar-toggler" id="navbar-toggle"data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,59 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Navbar</a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav> -->
+
+      <nav id="mainNavbar" class="navbar navbar-light bg-light navbar-expand-md py-0 fixed-top">
+          <div id="greenplug-logo">
+            <img src="leaf.svg" alt="" width="40px" height="35px">
+            <a href="#" class="navbar-brand">GREENPLUG</a>
+          </div>
+        <button class="navbar-toggler custom-toggler" id="navbar-toggle"data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-1" id="navLinks">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item">
+                    <a href="" class="nav-link m-2 menu-item">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link m-2 menu-item">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link m-2 menu-item">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link m-2 menu-item">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+      
 
     <section class="container-fluid px-0 bg-gray-lighter banner">
         <div class="row align-items-center banner-child">
@@ -64,11 +116,11 @@
         </div>
     </div>
 
-    <section class="section section-lg text-center bg-default">
+    <section class="section section-lg text-center bg-default howwe-container">
         <div class="container-wide">
             <div class="row row-50 justify-content-sm-center text-left">
-                <div class="col-sm-10 col-md-6 col-xl-3 mb-4">
-                    <article class="box-minimal box-minimal-border">
+                <div class="col-sm-10 col-md-6 col-xl-3 mb-5">
+                    <article class="box-minimal box-minimal-border howwe-operate">
                         <div class="box-minimal-icon mdi mdi-thumb-up-outline">
                             
                         </div>
@@ -80,8 +132,8 @@
                     </article>
                 </div>
 
-                <div class="col-sm-10 col-md-6 col-xl-3 mb-4">
-                    <article class="box-minimal box-minimal-border">
+                <div class="col-sm-10 col-md-6 col-xl-3 mb-5">
+                    <article class="box-minimal box-minimal-border howwe-operate">
                         <div class="box-minimal-icon mdi mdi-account-multiple">
                             
                         </div>
@@ -93,8 +145,8 @@
                     </article>
                 </div>
 
-                <div class="col-sm-10 col-md-6 col-xl-3 mb-4">
-                    <article class="box-minimal box-minimal-border">
+                <div class="col-sm-10 col-md-6 col-xl-3 mb-5">
+                    <article class="box-minimal box-minimal-border howwe-operate">
                         <div class="box-minimal-icon mdi mdi-headset">
                             
                         </div>
@@ -106,8 +158,8 @@
                     </article>
                 </div>
 
-                <div class="col-sm-10 col-md-6 col-xl-3 mb-4">
-                    <article class="box-minimal box-minimal-border">
+                <div class="col-sm-10 col-md-6 col-xl-3 mb-5">
+                    <article class="box-minimal box-minimal-border howwe-operate">
                         <div class="box-minimal-icon mdi mdi-credit-card">
                             
                         </div>
@@ -126,12 +178,12 @@
                 <div class="col-md-6 order-2 order-md-1">
                     <img class="panel-img" src="solar men3.jpg" alt="" width="100%">
                 </div>
-                <div class="col-md-6 order-1 order-md-2" id="few-words">
+                <div class="col-md-6 order-1 order-md-2 mx-3" id="few-words">
                     <div class="row justify-content-start">
                         <div class="col-lg-8 mb-5 mb-md-0" id="few-words">
                             <h3>A Few Words About Us</h3>
                             <div class="divider divider-default"></div>
-                            <p>Our company is an end-to-end, customer oriented alternative energy company that is centered
+                            <p class="mb-3 text-dark heading-5">Our company is an end-to-end, customer oriented alternative energy company that is centered
                                 on marketing, trading, and distribution of solar panels.</p>
                             <p>Firstly, we’re an environmentally friendly renewable energy company offering a broad
                                 portfolio of technologies, products & solutions to our clients globally. We also provide

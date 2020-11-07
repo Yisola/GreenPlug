@@ -18,6 +18,13 @@ h1, h2, h3, h4, h5, p {
     padding: 0;
 }
 
+.navbar-toggler {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
@@ -26,7 +33,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 #mainNavbar .nav-link {
-    background-color: #fff;
+    /* background-color: #fff; */
     color: #000;
 }
 
@@ -35,35 +42,31 @@ h1, h2, h3, h4, h5, p {
 }
 
 #mainNavbar .navbar-brand {
-    color: #0f9447;
+    color: #343535;
     font-weight:900;
     font-size: 1.5rem;
-}
-
-#navbar-toggle{
-    color: black!important;
-    /* border-color: #8ec942!important; */
-    /* background-color: black!important; */
-    background: black;
-    /* border: 1px solid transparent!important; */
-}
-
-nav ul {
-    float: right;
-    margin-right: 25px;
-    list-style: none;
-}
-
-.navbar-nav li {
-    display: inline-block;
-    line-height: 50px;
-    margin: 0 15px;
 }
 
 .navbar.scrolled {
     background: #fff;
     transition: background 500ms;
+} 
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+#greenplug-logo {
+    display: inline-flex;
+    align-items: center;
 }
+
+.navbar-toggler-icon{
+    font-size: 1.5rem;
+  }
+  
+
 
 #banner-img {
     height: 370px;
@@ -117,6 +120,10 @@ h3 {
 
 .whatwe-do {
     padding: 50px 20px 70px 20px!important;
+}
+
+.howwe-operate:hover {
+    background-color: #f1f2f9;
 }
 
 /* hr {
@@ -237,6 +244,10 @@ section {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.box-minimal-text {
+    margin-top: 22px;
 }
 
 .section-wrap .section-wrap-inner>*:before {
@@ -442,6 +453,10 @@ a:hover {
     border: 2px solid #fff;
 }
 
+#learn-btn:hover {
+    background-color: #0f9447;
+}
+
 footer {
     margin-top: 25px;
     background-color: #29292b;
@@ -476,6 +491,10 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a:hover {
     color: #fff;
 }
 
@@ -545,10 +564,10 @@ footer ul li a {
     h3, .heading-3 {
         font-size: 32px;
     }
-    .heading-5 {
+    /* .heading-5 {
         padding: 0 45px;
         font-size: 21px;
-    }
+    } */
     #few-words {
         height: 100%;
     }
@@ -562,6 +581,12 @@ footer ul li a {
     .footer-items {
         width: 50%;
         padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 769) {
+    .howwe-container {
+        margin-top: 180px;
     }
 }
 
