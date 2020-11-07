@@ -271,10 +271,6 @@ section {
     padding-left: 15px;
 }
 
-.section-lg {
-    padding: 60px 0;
-}
-
 p+.button {
     margin-top: 25px;
 }
@@ -539,11 +535,18 @@ footer ul li a:hover {
     border-top: 1px solid #545455;
 }
 
+
 @media (min-width: 768px) {
+    .section-lg, .section-custom {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
     h3, .heading-3 {
         font-size: 28px;
     }
 }
+
 
 @media screen and (min-width: 992px) {
     .banner {
@@ -564,16 +567,23 @@ footer ul li a:hover {
     h3, .heading-3 {
         font-size: 32px;
     }
-    /* .heading-5 {
-        padding: 0 45px;
-        font-size: 21px;
-    } */
+
+    .container {
+        max-width: 960px;
+    }
+   
     #few-words {
         height: 100%;
     }
 }
 
 @media screen and (min-width: 580px) {
+
+     /* .heading-5 {
+        padding: 0 45px;
+        font-size: 21px;
+    } */
+
     .footer-container {
         display: flex;
         flex-wrap: wrap;
